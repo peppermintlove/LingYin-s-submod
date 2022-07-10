@@ -3,7 +3,7 @@ init -990 python:
     author="LingYin",
     name="泠茵的话题包",
     description="大都是一些个人喜好内容.",
-    version="0.1.0"
+    version="0.1.1"
     )
 
 init -989 python:

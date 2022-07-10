@@ -1,15 +1,15 @@
 init 5 python:
-    addEvent(Event(persistent.event_database,eventlabel="monika_paranoia_intro",category=["音乐",],prompt="妄想症系列",random=True))
+    addEvent(Event(persistent.event_database,eventlabel="monika_paranoia_intro",category=["二次元""音乐",],prompt="妄想症系列",random=True))
     
 label monika_paranoia_intro:
         m 3eub"{i}~情感无限交织的深渊~{/i}"
         m 3dub"{i}~我们看见了什么~{/i}"
-        m 2esd "{i}~想着他们口出恶言~{/i}"
-        m 2dkd "{i}~想要死的壮烈一些~{/i}"
+        m 2esd "{i}~向着现实苦苦哀求~{/i}"
+        m 2dkd "{i}~想要死的深刻一些~{/i}"
         m 3dsc "{i}~仅剩下幻觉~{/i}"
         m 3hub "嘿，[player]，你知道这首歌出自哪个系列吗？"
         m 1hua "那当然是——"
-        extend 3sub "{w=1}{i}妄想症系列{/i}！"
+        extend 3sub "{i}妄想症系列{/i}！"
         m 1eua"那么，你有听说过这个系列吗，[player]？"
         $_history_list.pop()
         menu:
